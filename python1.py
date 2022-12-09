@@ -29,3 +29,12 @@ com=2+3j
 print(com)
 print(com.real)
 print(com.imag)
+
+a=5
+b=7
+#c=5<7 and 7>5
+print(5<7 and 7>5)
+
+
+a=5
+print(bin(a))

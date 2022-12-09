@@ -1,4 +1,4 @@
-name="kakan@shikhan"
+#name="kakan@shikhan"
 '''
 print(type(name))
 
@@ -11,9 +11,16 @@ print(name[-5])
 print(name[::-1])
 print(name[-6::-1])
 print(name[-14:])
-'''
+
 
 print(name.swapcase())
 print(name.count("an"))
 print(name.find("x"))
 print()
+'''
+#type formaing
+name="Shikhan"
+age=25
+roll=13
+print("name : ",name,"Age : ",age,"roll: ",roll)
+#print({"name : ",name,"Age : ",age,"roll: "})
