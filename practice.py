@@ -17,10 +17,26 @@ print(name.swapcase())
 print(name.count("an"))
 print(name.find("x"))
 print()
-'''
+
 #type formaing
 name="Shikhan"
 age=25
 roll=13
 print("name : ",name,"Age : ",age,"roll: ",roll)
 #print({"name : ",name,"Age : ",age,"roll: "})
+'''
+
+class product:
+    platform="Ali Baba"
+
+    def __init__(self,title:str,price:float) -> None:
+        self.title=title
+        self.price=price
+
+    def getDiscount(self)->float:
+        return self.price*0.9
+
+
+p1= product("Iphone-xr",29000)
+print(p1.title)
+print(p1.getDiscount())
