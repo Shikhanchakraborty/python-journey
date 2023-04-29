@@ -69,7 +69,7 @@ print(p2.title,p2.price)
 print(p1.getDiscount())
 print(p1.getCode())
 
-'''
+
 class product:
     platform="NOKIA"
 
@@ -99,3 +99,15 @@ p2=product("Nokia 320",1300)
 p1.code=65456
 print(p1.code)
 print(p1.code)
+'''
+import numpy as np
+vector= np.array([7,8,9,6,5,4])
+print(vector*2)
+
+matrix=np.array([
+    [4,5,6],
+    [7,8,9],
+    [5,6,3]
+])
+print(matrix*2)
+
