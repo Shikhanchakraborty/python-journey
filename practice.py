@@ -25,7 +25,7 @@ roll=13
 print("name : ",name,"Age : ",age,"roll: ",roll)
 #print({"name : ",name,"Age : ",age,"roll: "})
 '''
-
+'''
 class product:
     platform="Ali Baba"
 
@@ -40,3 +40,15 @@ class product:
 p1= product("Iphone-xr",29000)
 print(p1.title)
 print(p1.getDiscount())
+'''
+from turtle import*
+goto(300,60)
+pendown()
+circle(40)
+penup()
+goto(-200,100)
+goto(300,-140)
+pendown()
+circle(40)
+penup()
+goto(-200,-100)
