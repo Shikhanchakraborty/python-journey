@@ -1,4 +1,4 @@
 print("sHIKHAN")
 
-for x in range(6):
+for x in range(8):
     print(x)
